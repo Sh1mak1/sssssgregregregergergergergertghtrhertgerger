@@ -17,46 +17,46 @@
 
         layer_1 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_5 {
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
