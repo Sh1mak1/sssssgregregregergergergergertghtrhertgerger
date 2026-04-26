@@ -7,56 +7,64 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            // Layer 0 (Base)
+            // -----------------------------------------------------------------------------------------
+            // |  ESC |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | RET  |
+            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
+            // | SHFT | GUI | ALT |            [  |  A  | A  |  A  |           | LFT | DWN | RGHT |
             bindings = <
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
-&kp A  &kp A  &kp A  &kp A  &kp A  &kp A                  &kp A  &kp A  &kp A  &kp A  &kp A  &kp A
+&kp ESC   &kp Q    &kp W    &kp E   &kp R   &kp T      &kp Y   &kp U    &kp I     &kp O   &kp P    &kp BSPC
+&kp LCTRL &kp A    &kp S    &kp D   &kp F   &kp G      &kp H   &kp J    &kp K     &kp L   &kp SEMI &kp RET
+&kp LSHFT &kp Z    &kp X    &kp C   &kp V   &kp B      &kp N   &kp M    &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+&kp LSHFT &kp LGUI &kp LALT         &kp LBKT &kp A     &kp A   &kp A              &kp LEFT &kp DOWN &kp RIGHT
             >;
         };
 
         layer_1 {
+            // Layer 1
+            // -----------------------------------------------------------------------------------------
+            // | CAPS |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
+            // |      |     |     |     |  ;  |  -  |   |  =  |  '  |     |     |     |      |
+            // |      |     |     |     |     |     |   |     |     |     |     |  UP |      |
+            // |      |     |     |           |     |   |     |     |           |     |     |      |
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPS &kp N1 &kp N2 &kp N3 &kp N4   &kp N5      &kp N6    &kp N7  &kp N8 &kp N9 &kp N0 &trans
+&trans   &trans &trans &trans &kp SEMI &kp MINUS   &kp EQUAL &kp SQT &trans &trans &trans &trans
+&trans   &trans &trans &trans &trans   &trans      &trans    &trans  &trans &trans &kp UP &trans
+&trans   &trans &trans        &trans   &trans      &trans    &trans         &trans &trans &trans
             >;
         };
 
         layer_2 {
+            // Layer 2
+            // -----------------------------------------------------------------------------------------
+            // | CAPS |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
+            // |      |     |     |     |  ;  |  -  |   |  =  |  '  |     |     |     |      |
+            // |      |     |     |     |     |     |   |     |     |     |     |     |      |
+            // |      |     |     |           |     |   |     |     |           |     |     |      |
+            // ※画像2枚目の右下（UP矢印があった位置）のキーが紫色になっています。おそらく「レイヤー切り替え(mo/lt)等」や特定の機能だと思いますが、キートップに印字がないため、ご自身の意図したキーコード（例: &mo 3, &kp RET など）に変更してください。
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPS &kp N1 &kp N2 &kp N3 &kp N4   &kp N5      &kp N6    &kp N7  &kp N8 &kp N9 &kp N0 &trans
+&trans   &trans &trans &trans &kp SEMI &kp MINUS   &kp EQUAL &kp SQT &trans &trans &trans &trans
+&trans   &trans &trans &trans &trans   &trans      &trans    &trans  &trans &trans &trans &trans
+&trans   &trans &trans        &trans   &trans      &trans    &trans         &trans &trans &trans
             >;
         };
 
         layer_3 {
+            // Layer 3 (Numpad)
+            // -----------------------------------------------------------------------------------------
+            // |      |     |     |     |     |     |   |     |  7  |  8  |  9  |     |      |
+            // |      |     |     |     |     |     |   |     |  4  |  5  |  6  |     |      |
+            // |      |     |     |     |     |     |   |     |  1  |  2  |  3  |     |      |
+            // |      |     |     |           |     |   |     |  0  |           | RET |     |      |
+            // ※右下の紫色のキー（Enterの右）も印字がないため、ひとまず &trans にしています。
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans &trans &trans &trans &trans &trans      &trans &kp N7 &kp N8 &kp N9 &trans &trans
+&trans &trans &trans &trans &trans &trans      &trans &kp N4 &kp N5 &kp N6 &trans &trans
+&trans &trans &trans &trans &trans &trans      &trans &kp N1 &kp N2 &kp N3 &trans &trans
+&trans &trans &trans        &trans &trans      &trans &kp N0        &kp RET &trans &trans
             >;
         };
     };
